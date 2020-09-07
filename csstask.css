@@ -1,0 +1,28 @@
+.jumbotron {
+background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg" );
+background-repeat: no-repeat;
+background-size: percentage;
+
+}
+.form-inline{
+    margin-left:auto
+}
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    padding: 20px;
+  }
+  #remove {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 2.4px 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  #remove:hover {
+    background-color: white;
+  }
